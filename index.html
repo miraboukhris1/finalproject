@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JusticeLeague</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stye.css">
+    <script src="https://kit.fontawesome.com/529b8a145f.js" crossorigin="anonymous"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container">
+    <div class="w-100 d-flex justify-content-between">
+      <div>
+        <i class="fa-solid fa-envelope text-light"></i>
+        <a href="#" class="navbar-sm-brand text-light text-decoration-none contact-info me-4">justice-league@gmail.com</a>
+        <i class="fa-solid fa-phone contact-info text-light"></i>
+        <a href="#" class="navbar-sm-brand text-white text-decoration-none contact-info">71-255-255</a>
+      </div>
+      <div>
+        <i id="heartIcon" class="fa-regular fa-heart text-light me-2" style="cursor: pointer;"></i>
+        <i class="fa-solid fa-globe text-light"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+ 
+  <!--nav2-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="photo.png" alt="Logo"  style="height:80px" style="width:100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html" style="color:brown" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about us.html">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="./contact us.html">contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"  href="./donate.html">donate</a></li>
+              <li><a class="dropdown-item" href="./shop.html">shop</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
+   
+ 
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pal.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="animated fadeInDown" style="animation-delay: 1s">Welcome to Support Palestine</h5>
+          <p class=" animated fadeInUp d-none d-md-block" style="animation-delay: 2s">We provide essential aid to Palestinian families. Your help brings hope</p>
+          <p class="animated bounceRight" style="animation-delay :3s"><a href="./about us.html">about us</a></p>
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pol2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="animated fadeInDown" style="animation-delay: 1s">Donate from your couch</h5>
+          <p class=" animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Make a donation and change a life from the comfort of your home.</p>
+          <p class="animated bounceRight" style="animation-delay :3s"><a href="./donate.html">donate</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.shoppalestine.org/cdn/shop/files/new-home-hero-image.jpg?v=1655139209&width=1500" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="animated fadeInDown" style="animation-delay: 1s">Shop for a Cause</h5>
+          <p class=" animated fadeInUp d-none d-md-block" style="animation-delay: 2s">70% of proceeds support Palestinian families. Shop now!</p>
+          <p class="animated bounceRight" style="animation-delay :3s"><a href="./shop.html">shop</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <main>
+    <section class="s_text_image o_cc o_cc2 pt72 pb72" data-snippet="s_text_image">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 pt16 pb16">
+                  <h2>
+      Everything you need to donate, totally free
+  </h2>
+                  <p>
+      <br>
+  </p>
+                  <p>
+      Track your donations, discover new ways to give, and choose the causes you care about. All those options and more are included and totally free of charge.
+  </p>
+                  <p><a href="./donate.html" class="btn btn-outline-danger">start now </a></p>
+              </div>
+              <div class="col-lg-6 pt16 pb16">
+                  <img src="https://justice-league.odoo.com/web_editor/image_shape/website.s_text_image_default_image/web_editor/pattern/pattern_point.svg?c1=o-color-1" class="img img-fluid mx-auto" alt="" data-shape="web_editor/pattern/pattern_point" data-original-mimetype="image/jpeg" data-file-name="image_content_19.svg" data-shape-colors="o-color-1;;;;" loading="lazy" style="">
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+  <section="imagee">
+    <div style="position:relative">
+      <img src="kids.jpg"  class="img">
+      <div class="content3">
+        <h1 >GAZA EMERGENCY</h1>
+        <h2>PLEASE SUPPORT OUR URGENT RESPONSE</h2>
+        <p>We create the perfect donation solution for you</p>
+      </div>
+    </div>
+  </section>
+  <section class="s_call_to_action o_cc pb24 pt80 o_cc2" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/14_001&quot;, &quot;flip&quot;:[&quot;y&quot;]}" data-snippet="s_call_to_action">
+    <div class="o_we_shape o_web_editor_Origins_14_001 o_footer_extra_shape_mapping" style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/14_001.svg?c3=o-color-4&amp;c4=o-color-3&amp;flip=y&quot;); background-position: 50% 0%; left: 0.1px; right: 0.1px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 pt16">
+                <h3>
+    Join the thousands of people who have donated to make a difference in their communities.
+</h3>
+                <p>
+    Join us and make a positive impact.
+</p>
+            </div>
+            <div class="col-lg-3 pt8">
+                <p style="text-align: right;">
+                    <a class="btn btn-primary btn-lg" href="./contact us.html">Contact us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+  </main>
+
+  <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+    <div id="footer" class="oe_structure oe_structure_solo" data-oe-id="1270" data-oe-xpath="/data/xpath/div" data-oe-model="ir.ui.view" data-oe-field="arch">
+<section class="s_text_block pt32 pb16" data-snippet="s_text_block" data-name="Text">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 pt16 pb16">
+            <p class="mb-2">How can we help?</p>
+            <h4>Contact us anytime</h4>
+        </div>
+        <div class="col-lg-3 pt16 pb16">
+            <p class="mb-2">Call us</p>
+            <h5><span class="o_force_ltr"><a href="tel:+(216)71255255">+(216)71255255</a></span></h5>
+        </div>
+        <div class="col-lg-3 pt16 pb16">
+            <p class="mb-2">Send us a message</p>
+            <h5><a href="mailto:hello@mycompany.com">Justice-League@mycompany.com</a></h5>
+        </div>
+        <div class="col-lg-3 pt16 pb16">
+            <div class="s_social_media text-end no_icon_color o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
+                <p class="s_social_media_title d-block mb-2" contenteditable="true">Follow us</p>
+                <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank">
+                    <i class="fa fa-twitter m-1 o_editable_media"></i>
+                </a>
+                <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank">
+                    <i class="fa fa-linkedin m-1 o_editable_media"></i>
+                </a>
+                <a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+                    <i class="fa fa-instagram m-1 o_editable_media"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+<div class="container allow_columns">
+    <div class="s_hr pt16 pb16">
+        <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-color: var(--600);">
+    </div>
+</div>
+</section>
+<section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-lg-2 pb16">
+            <a href="/" class="o_footer_logo logo">
+                <img src="photo.png" class="img-fluid" aria-label="Logo of MyCompany" title="MyCompany" role="img" loading="lazy" style="">
+            </a>
+        </div>
+        <div class="col-lg-10 pb16 text-end">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="./index.html">Home</a></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="./about us.html">About us</a></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="./shop.html">shop</a></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="./donate.html">donate</a></li>
+                    
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+<div class="o_footer_copyright o_colored_level o_cc" data-name="JusticeLeague">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm text-center text-sm-start text-muted">
+                    <span class="o_footer_copyright_name me-2" data-oe-id="589" data-oe-xpath="/data/xpath/span" data-oe-model="ir.ui.view" data-oe-field="arch">Copyright © Company name</span>
+
+
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script>
+    
+  </script>
+</body>
+
+
+
+</html>
+
